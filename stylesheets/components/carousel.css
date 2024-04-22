@@ -1,0 +1,13 @@
+.carousel .carousel-title-img {
+    transition: height 0.8s;
+    height: 15vh;
+    margin-bottom: 15%;
+}
+
+.carousel .carousel-title-img:hover {
+    height: 17vh;
+}
+
+.md-carousel img {
+    height: 100%;
+}

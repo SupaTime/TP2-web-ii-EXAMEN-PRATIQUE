@@ -1,0 +1,119 @@
+body .game-boxs-container {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body .game-boxs {
+    transition: left 0.8s;
+    position: relative;
+    left: -5vw;
+    top: 0;
+}
+
+body .game-boxs > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20vw;
+    transform: rotate(20deg);
+    transform-origin: top;
+    overflow: hidden;
+    transform: skewX(-20deg);
+    transition: width 0.8s, left 0.8s, opacity 0.8s, visibility 0.8s, filter 0.8s;
+    left: 200px;
+    height: 100%;
+    opacity: .5;
+    filter: grayscale(100%);
+}
+
+body .game-boxs > li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+body .game-boxs > li img#game {
+    position: relative;
+    min-width: 100vw;
+    transform: skewX(20deg);
+    left: 0;
+}
+
+body .game-boxs .current-box {
+    width: 30vw;
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+body .game-boxs.slide-lf {
+    transition: left 0.8s;
+    left: -9vw;
+}
+
+body .game-boxs.slide-rf {
+    transition: left 0.8s;
+    left: 0vw;
+}
+
+body .game-boxs img.title {
+    position: absolute;
+    transform: skewX(20deg);
+    max-width: 15vw;
+    display: block;
+    transition: opacity 0.8s, max-width 0.8s;
+    opacity: 0;
+}
+
+body .carousel img.title {
+    max-width: 35vw;
+    transition: opacity 0.8s, max-width 0.8s;
+}
+
+body .game-boxs li.current-box img.title {
+    max-width: 20vw;
+    opacity: 1;
+}
+
+body .game-boxs li:nth-child(1) img.title {
+    left: 9vw;
+}
+
+body .game-boxs li:nth-child(6) img.title {
+    left: -2vw;
+}
+
+body .more-detail {
+    top: 55%;
+    width: 75vw;
+}
+
+@media (max-width: 1250px) {
+    body .game-boxs {
+        left: -5vw;
+    }
+        
+    body .game-boxs.slide-lf {
+        left: -10vw;
+    }
+
+    body .game-boxs.slide-rf {
+        left: -4vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    body .game-boxs {
+        left: -10vw;
+    }
+        
+    body .game-boxs.slide-lf {
+        left: -13vw;
+    }
+
+    body .game-boxs.slide-rf {
+        left: -6vw;
+    }
+}

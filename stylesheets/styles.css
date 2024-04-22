@@ -1,0 +1,55 @@
+@import url(root.css);
+
+@import url(components/box.css);
+@import url(components/navbar.css);
+@import url(components/carousel.css);
+@import url(components/background-img.css);
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #353535;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background: #5b5b5b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-less-important);
+}
+
+nav .offcanvas-body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
+}
+
+nav .offcanvas#offcanvasNavbar {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
+}
+
+nav .nav-link {
+    color: var(--color-text);
+}
+
+nav .navbar-nav .nav-link.active {
+    color: var(--color-text);
+}
+
+nav .nav-link:hover {
+    color: var(--color-link);
+}
+
+body i.invertable {
+    color: var(--color-text);
+}
+
+body .form-text {
+    color: var(--color-less-important);
+}
+
+.fade-down {
+    border: 1px solid var(--color-text);
+    width: 100%;
+}

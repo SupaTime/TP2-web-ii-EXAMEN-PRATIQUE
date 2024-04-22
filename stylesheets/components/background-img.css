@@ -1,0 +1,70 @@
+.darksouls-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/background-game-images/darksoul/detail_1.jpg");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.armored-core-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/background-game-images/armored-core/carousel.jpg");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.bloodborne-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/background-game-images/bloodborn/background_c.jpg");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.eldenring-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/background-game-images/eldenring/background_c\ \(3\).jpg");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.deracine-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/background-game-images/deracine/carousel.jpg");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.sekiro-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/background-game-images/sekiro/carousel.jpg");
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+.title-logo {
+    width: 70%;
+}
+
+.official-site-btn {
+    width: 40%;
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+
+.official-site-btn:hover {
+    opacity: 0.7;
+}
+
+

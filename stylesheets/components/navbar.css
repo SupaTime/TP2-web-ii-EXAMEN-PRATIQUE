@@ -1,0 +1,7 @@
+nav button.burger {
+    right: 0;
+}
+
+body nav.form-navbar {
+    background-color: var(--color-bg-secondary);
+}
